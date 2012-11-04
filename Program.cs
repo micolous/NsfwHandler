@@ -121,7 +121,7 @@ namespace NsfwHandler
             {
                 // no url given
                 // die
-                MessageBox.Show("No URL given or command line option. :(");
+                MessageBox.Show("No URL given or command line option. :(\r\nTry nsfwhandler -h.", "NsfwHandler", MessageBoxButtons.OK, MessageBoxIcon.Hand);
 
 
             }
