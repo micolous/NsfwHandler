@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsfwHandler", "NsfwHandler\NsfwHandler.csproj", "{7D9D6491-0324-4F49-82A8-86EB40739EDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsfwHandler", "NsfwHandler.csproj", "{7D9D6491-0324-4F49-82A8-86EB40739EDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

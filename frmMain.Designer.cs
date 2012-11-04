@@ -94,6 +94,7 @@
             this.Name = "frmMain";
             this.ShowIcon = false;
             this.Text = "NSFW Handler";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

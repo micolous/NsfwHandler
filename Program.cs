@@ -1,8 +1,25 @@
-﻿using System;
+﻿/*
+ * NsfwHandler - A Windows URI handler for NSFW web links
+ * Copyright 2012 Michael Farrell <http://micolous.id.au/>.
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using Microsoft.Win32;
-using System.Runtime.InteropServices;
 
 namespace NsfwHandler
 {
@@ -78,11 +95,11 @@ namespace NsfwHandler
 
                         case "/?":
                         case "-h":
-                            MessageBox.Show("nsfwhandler\r\n   -i     Installs the protocol handlers for nsfw and nsfws\r\n   -u     Uninstalls the protocol handlers for nsfw and nsfws\r\n (URL)    Handles the nsfw/nsfws URL");
+                            MessageBox.Show("nsfwhandler\r\n   -i     Installs the protocol handlers for nsfw and nsfws\r\n   -u     Uninstalls the protocol handlers for nsfw and nsfws\r\n (URL)    Handles the nsfw/nsfws URL\r\n\r\nSource code: https://github.com/micolous/NsfwHandler\r\nLicense: GPLv3\r\nAuthor's website: http://micolous.id.au/", "NsfwHandler", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             break;
 
                         default:
-                            MessageBox.Show("Unknown option, try -h");
+                            MessageBox.Show("Unknown option, try -h", "NsfwHandler", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                             break;
                     }
 
